@@ -5,7 +5,7 @@ from scipy.ndimage.interpolation import zoom
 from streamlit_drawable_canvas import st_canvas
 from utils import process_image
 st.markdown("# la :blue[mejor] :green[aplicacion] :red[para] :blue[predecir] :pencil:✔⚾")
-st.imagen("https://www.petlife.mx/u/fotografias/m/2023/3/14/f425x230-253_14235_0.jpg")
+st.image("https://cdn.noticiasenlamira.com/2022/08/estudio-perros.jpg")
 
 # Load trained model
 model = tf.keras.models.load_model('mi_modelo.h5')
