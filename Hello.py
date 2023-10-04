@@ -5,7 +5,7 @@ from scipy.ndimage.interpolation import zoom
 from streamlit_drawable_canvas import st_canvas
 from utils import process_image
 st.markdown("# la :blue[mejor] :green[aplicacion] :red[para] :blue[predecir] :pencil:✔⚾")
-st.imagen("https://www.pngwing.com/es/free-png")
+st.imagen("https://uploads-ssl.webflow.com/63634f4a7b868a399577cf37/63e10adfa64a34de9592b9a3_nombres%20para%20perritos%20blancos.jpg")
 
 # Load trained model
 model = tf.keras.models.load_model('mi_modelo.h5')
